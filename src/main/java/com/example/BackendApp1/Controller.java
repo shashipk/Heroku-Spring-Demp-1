@@ -13,6 +13,11 @@ public class Controller {
         return "Hello Coders!! 1st API";
     }
 
+    @GetMapping("/hi2")
+    public String sayHello2(){
+        return "Hello Coders 2 2 2 !! 1st API";
+    }
+
     // https://www.google.com/search?q=sachin
     // http://localhost:9090/convert?q=5
 
