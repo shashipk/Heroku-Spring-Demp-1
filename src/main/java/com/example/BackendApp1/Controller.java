@@ -10,7 +10,7 @@ public class Controller {
 
     @GetMapping("/hi")
     public String sayHello(){
-        return "Hello Coders!! 1st API";
+        return "Hello Coders!! 1st API, 2nd change";
     }
 
     @GetMapping("/hi2")
